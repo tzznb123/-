@@ -1,0 +1,300 @@
+﻿body 
+{ 
+    font-size:20px;
+    font-family:@华文行楷;
+    margin:0 auto;
+    width:auto;
+    max-width:1920px;
+    height:auto;
+    
+    
+}
+
+#box
+{
+    margin:0 auto;
+    width:100%;
+    height:auto;
+    background-color:Gray;
+    margin-left:-1px;
+
+}
+
+
+
+#head
+{
+    width:auto;
+    height:60px;
+    background-color:#666666;
+    top:-42px;
+    opacity:0.8;
+    
+}
+
+#head img
+{
+    float:left;
+    margin-top:3px;
+    margin-left:80px;
+}
+#head h2
+{
+   width:300px;
+   float:left;
+   height:10px;
+   margin-left:15px;
+   margin-top:5px;
+   color:	#FAFAD2;
+   word-spacing:1em;
+
+}
+
+#head .list_a
+{
+    width:600px;
+    float:right;
+    margin-right:30px;
+    height:100%;
+    font-size:15px;
+}
+#head .list_a a:hover
+{
+    background-color:#CD6600
+}
+
+#head .list_a a
+{
+    padding:20px 20px 20px 20px;
+    line-height:60px;
+    width:40px;
+    color:	#DEB887;
+    cursor:pointer;
+    text-decoration:none;
+
+}
+
+#head .list_a a:hover
+{
+    color:#CDC9A5;
+    }
+.banner{
+ min-width:900px;
+}
+.banner_wrap{
+    height: 500px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.banner_wrap .banner_img{
+    height: 100%;
+    width: 200%;
+    margin: 0 auto;
+   list-style:none;
+      position:relative;
+      margin-left:-40px;
+
+}
+.banner_wrap .banner_img li{
+    float: left;
+    height: 100%;
+    width: 50%;
+    margin: 0 auto;
+    position:absolute;
+}
+.banner_wrap .banner_img li img{
+    width: 100%;
+    height:100%
+}
+.banner_left{
+    height: 71px;
+    width: 71px;
+    position: absolute;
+    top: 50%;
+    left: 45px;
+    background: #444;
+    cursor:pointer;
+    }
+    
+  .banner_left img {
+    width: 100%;
+}
+.banner_right{
+    height: 71px;
+    width: 71px;
+    position: absolute;
+    top: 50%;
+    right: 45px;
+    background: #444;
+     cursor:pointer;
+
+}
+.banner_right img {
+    width: 100%;
+}
+.clear_fix:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+    #top
+    {
+        width:100%;
+        min-height:920px;
+     background-color:	#DCDCDC;
+        margin:0 auto;
+        } 
+        .box3
+        {
+            width:1800px;
+            height:922px;
+          margin:0 auto;
+             border-radius:60px;
+             padding:5px;
+            }
+         .t_left
+         {
+             padding:10px;
+             width:1300px;
+             height:900px;
+             float:left;
+             margin-left:-1px;
+             -webkit-border-top-left-radius: 60px;
+             -webkit-border-bottom-left-radius: 60px;
+             background-color:white;
+             font-size:17px;
+             box-shadow:5px 5px 2px #888888;
+             }
+             .left_img
+             {
+                 width:300px;
+                 height:250px;
+                 margin-left:182px;
+                 
+                 }
+        
+             #NewsTTL
+             {
+                 text-align:center;
+                 }
+             .tc
+             {
+                 text-align:center;
+                 }
+      .t_right
+         {
+             width:470px;
+             height:920px;
+             border:1px solid #9ea9a5;
+             background-color:	#FFFFF0;
+             float:right;
+             -webkit-border-top-right-radius: 60px;
+             -webkit-border-bottom-right-radius: 60px;
+             }
+             
+             
+             
+             
+     .t_right img
+     {
+         margin:0 auto;
+         padding:66px 20px 0px 100px;
+         box-shadow:5px 5px 2px #888888;
+     }
+             .j_fx h5
+             {
+                 margin-top:5px;
+                 }
+             h5
+             {
+                 margin-top:1px;
+                 }
+             .t1,.t2
+             {
+                 width:140px;
+                 height:100px;
+                 float:left;
+                 margin-top:-2px;
+                 
+                 }
+             .t1 img,.t2 img
+             {
+                 width:139px;
+                 height:99px;
+                 }
+              .t1 p,.t2 p
+              {
+                  margin-top:5px;
+                  margin-left:35px;
+                  margin-bottom:5px;
+                  }
+            .page
+            {
+                margin-left:265px;
+                }
+            .page a
+            {color:Black;
+                  text-decoration:none;
+                }
+              .page a:hover
+              {
+                  color:red;
+               text-decoration:underline;
+                  }
+               #bottom
+            {
+                width:100%;
+                height:100px;
+                background-color:#8B7D7B;
+                }
+                .news
+                {
+                    margin-top: 30px;
+                    width: 286px;
+                     height: 250px;
+                   border: 1px solid gray;
+                   margin-left:-1px;
+                    }
+                 .news1
+                 {
+                     width: 269px;
+                     height: 250px;
+                   
+                     }
+                    .pic
+                    {
+                            width: 285px;
+    height: 267px;
+    
+                        }
+                .pic .img1
+                {
+                   width: 130px;
+    height: 93px;
+    float: left;
+    padding: 5px;
+                    }
+                      #ContentPlaceHolder1_BulletedList1,#ContentPlaceHolder1_BulletedList2
+              {
+                  list-style-type:none;
+                  margin-left:-23px;
+                  
+                  }
+                #ContentPlaceHolder1_BulletedList1 li, #ContentPlaceHolder1_BulletedList2 li
+                {
+                     border-bottom:1px dashed #9ea9a5;
+                    }
+           #ContentPlaceHolder1_BulletedList1 li a,#ContentPlaceHolder1_BulletedList2 li a
+           {
+               color:Black;
+                  text-decoration:none;
+               }
+               
+           #ContentPlaceHolder1_BulletedList1 li a:hover,#ContentPlaceHolder1_BulletedList2 li a:hover
+           {
+               color:red;
+               text-decoration:underline;
+               }

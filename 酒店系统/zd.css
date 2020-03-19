@@ -1,0 +1,162 @@
+﻿body 
+{
+    
+    width:auto;
+    height:auto;
+}
+
+
+
+#bod
+{
+    height:950px;
+    width:1920px;
+    background-color:Black;
+    position:relative;
+    background-image:url("image/timg.jpg");
+    
+}
+
+#dl
+{
+    position:absolute;
+    width:500px;
+    height:440px;
+    background-color:Olive;
+    float:right;
+    top:250px;
+    left:1200px;
+
+    background:rgb(255 ,250 ,250,0.8);
+    border-radius:15px;
+}
+#dl h2
+{
+    margin-top:30px;
+    font-size:40px;
+    width:120px;
+    margin-left:180px;
+}
+
+.d_l
+{
+    margin:0 auto;
+    margin-top:50px;
+}
+.d_l p
+{
+    margin-top:80px;
+    margin:0 auto;
+    width:auto;
+    text-align:center;
+    padding-bottom:10px;
+    font-size:20px;
+}
+
+.d_l p input
+{
+    width:290px;
+    height:60px;
+    border-radius:10px;
+}
+
+.d_l h5 input
+{
+    width:140px;
+    height:40px;
+    border-radius:10px;
+    margin-left:120px;
+}
+.d_l h5 #img_code
+{
+    margin-left:300px;
+    height:40px;
+    margin-top:-38px;
+}
+
+.d_l span
+{
+    margin-left:105px;
+}
+
+.d_l span input
+{
+    width:290px;
+    height:50px;
+    font-size:20px;
+    line-height:25px;
+    margin-top:10px;
+    border-radius:16px;
+}
+
+
+
+
+
+#zc
+{
+    width:1920px;
+    height:1000px;
+    position:absolute;
+    left:0px;
+    right:0px;
+    display:none;
+    background:rgba(216,191,216,0.3);
+   
+}
+
+
+
+#zc_1
+{
+    width:520px;
+    height:520px;
+    background:rgb(255 ,255 ,255,0.8);
+    margin:0 auto;
+    margin-top:230px;
+    border-radius:10px;
+     box-shadow: 10px 10px 5px #888888;
+ 
+}
+
+
+#zc_1 p
+{
+    margin:0 auto;
+    width:400px;
+    text-align:center;
+    
+}
+
+#zc_1
+{
+    font-size:20px;
+}
+#zc_1 .b
+{
+ font-size:40px;
+ float:right;
+ margin-right:10px;
+ text-decoration:none;
+ 
+}
+#zc_1 p input
+{
+    width:240px;
+    height:40px;
+    border-radius:8px;
+    margin-top:50px;
+}
+
+#zc_1 span input
+{
+     width:90px;
+    height:35px;
+    font-size:20px;
+    line-height:25px;
+    margin-top:20px;
+}
+#zc_1 span
+{
+    margin-left:100px;
+}

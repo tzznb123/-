@@ -1,0 +1,100 @@
+﻿.top-header {
+    border-radius: 3px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    color: #fff;
+    height: 80px;
+    font-family: 'Microsoft YaHei';
+    background: #3f51b5;
+    -webkit-transition: padding-left .6s ease-in-out, background-color .3s cubic-bezier(.4, 0, .2, 1), box-shadow .15s linear;
+    transition: padding-left .6s ease-in-out, background-color .3s cubic-bezier(.4, 0, .2, 1), box-shadow .15s linear;
+    z-index: 30
+}
+
+.header-title {
+    font-weight: bold;
+    line-height: 80px;
+    font-size: 30px;
+    text-align: center;
+    white-space: nowrap;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12)
+}
+
+#main {
+    text-align: center;
+    vertical-align: middle;
+    margin: 50px;
+    overflow: auto;
+    border-radius: 5px;
+    width: 700px;
+    height: 500px;
+    background: #fff;
+    margin-top: 10%;
+    margin-right: 26%;
+    font-family: 'Microsoft YaHei';
+    float: right;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+.style1 {
+    width: 80px;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+    text-align: center;
+    margin-left:25%;
+    margin-top:15%;
+}
+
+td {
+    padding: 10px;
+    color: #444;
+    text-align: left;
+    width:200px;
+}
+
+
+.btn {
+    font-size: 12px;
+    font-family: 'Microsoft YaHei';
+    line-height: 1.5;
+    color: #fff;
+    text-transform: uppercase;
+    width: 100px;
+    height: 35px;
+    border-radius: 25px;
+    background: #3f51b5;
+    justify-content: center;
+    align-items: center;
+    padding: 0 25px;
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+}
+
+    .btn:hover {
+        background-color: #333333;
+        cursor: pointer;
+    }
+
+.txtbox {
+    border-radius: 30px;
+    width: 120px;
+    margin: 0px 0px 0px 3px;
+    height: 25px;
+    border: 2px solid #DBDBDB;
+    text-align: center;
+}
+
+.dlist {
+    border-radius: 30px;
+    width: 120px;
+    margin: 0px 0px 0px 3px;
+    height: 25px;
+    text-align: center;
+}
